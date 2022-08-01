@@ -52,7 +52,7 @@ for item in input().split(','):
     else:
         data.append([int(item)])
 obj = MyCircularQueue(data[0][0])
-result = [}
+result = []
 for i in range(len(operations)):
     if i == 0:
         result.append(None)
